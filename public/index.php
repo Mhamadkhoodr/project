@@ -29,6 +29,7 @@ if(!isset($errors)){
         $_SESSION['username'] = $row['username'];
         $_SESSION['email'] = $row['email'];
         $_SESSION['picture'] = $row['picture'];
+        $_SESSION['is_admin'] = $row['is_admin'];
         header('location:welcome.php');
 
 
